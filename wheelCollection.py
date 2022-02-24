@@ -54,6 +54,5 @@ class wheelCollection:
             return spin
         return "Wheel does not exist!"
 
-    def toString(self):
-        for i in self.__wheelCollection:
-            print(i.getName())
+    def getCollection(self):
+        return self.__wheelCollection
